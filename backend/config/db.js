@@ -15,3 +15,6 @@ const connectDB = async () =>{
 
 
 module.exports = connectDB
+
+//brad@gmail.com
+//12345  pwd for testing ....

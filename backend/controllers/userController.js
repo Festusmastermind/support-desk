@@ -32,7 +32,7 @@ const registerUser = asyncHandler(async (req, res) => {
         password: hashedPassword
     })
     if(user){
-        //if the user is created, then send the status, id, name, and email back as a response..
+        //if the user is created, then send the status, id, name, email and token back as a response..
         res.status(201).json({
             _id: user._id, 
             name : user.name,

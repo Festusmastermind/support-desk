@@ -21,7 +21,7 @@ function Login() {
     
     useEffect(() => {
         if (isError) {
-            toast.error(message) //display an error if there's an error 
+            toast.error(message) //display an error message if there's an error 
         }
         // Redirect to the home page when logged in
         if (isSuccess || user) {

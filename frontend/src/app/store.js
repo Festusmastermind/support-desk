@@ -13,4 +13,4 @@ export const store = configureStore({
 });
 
 
-//NB: the authSlicer.reducer is called the authReducer in the case ...
+//NB: the authSlicer.reducer is called the authReducer imported..
